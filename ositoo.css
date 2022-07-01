@@ -1,6 +1,8 @@
 
 
 /*Globales*/
+
+
 ul {
     display: flex;
     flex-direction: row-reverse;
@@ -15,10 +17,12 @@ h1 {
 }
 
 header nav {
-    background-color: rgb(192, 212, 255);
+    background: linear-gradient(rgb(255, 192, 203), rgb(162, 162, 240));
+    margin-top: 25px;
 }
 
 section {
+    background: linear-gradient(rgb(150, 238, 157), rgb(207, 250, 128));
     display: flex;
     display: flex;
     flex-direction: column;
@@ -28,8 +32,12 @@ section {
     align-items: center;
 }
 
+div {background-color: rgb(247, 207, 214);}
+p {margin-right: 50%; font-size: large;
+text-transform:capitalize;}
+
 footer {
-    background-color: bisque;
+    background-color: beige;
     text-align: center;
 }
 
@@ -74,3 +82,12 @@ nav img {
     height: 9%;
     border-radius: 85%;
 }
+.peluches {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+main img {margin-left: 35%;
+}
+

@@ -1,0 +1,23 @@
+
+ *{background: linear-gradient( rgb(198, 238, 218), rgb(214, 214, 252)) ;}
+
+#pagina2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+div img {margin-left: 45%;}
+h1 {margin-left: 45%;}
+div span {margin-left: 45%;
+margin-top: 2%;}
+p {text-align: center;}
+div h3 {margin-left: 45%;}
+#laa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 45%;
+}
