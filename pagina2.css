@@ -11,13 +11,18 @@
 }
 div img {margin-left: 45%;}
 h1 {margin-left: 45%;}
-div span {margin-left: 45%;
-margin-top: 2%;}
+div span {margin-left: 615px;
+margin-top: 2%;
+text-transform: uppercase;}
 p {text-align: center;}
 div h3 {margin-left: 45%;}
 #laa {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 45%;
+    margin-left: 615px;
 }
+button{margin-left: 5px; margin-top: 10px;}
+input{padding: 0 10px;}
+
+button:hover {cursor: pointer; border-color: blue; padding: 5px;}

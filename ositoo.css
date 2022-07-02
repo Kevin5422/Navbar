@@ -2,7 +2,7 @@
 
 /*Globales*/
 
-
+*{background-color: rgba(180, 180, 248, 0.979);}
 ul {
     display: flex;
     flex-direction: row-reverse;
@@ -13,12 +13,19 @@ ul {
 
 h1 {
     text-align: center;
-    color: rgba(89, 92, 252, 0.596);
+    color: rgba(0, 0, 0, 0.596);
+   background: linear-gradient(rgb(255, 186, 246), rgb(245, 245, 160));
+    border-style: solid;
+    border-radius: 25%;
 }
 
-header nav {
+nav {
     background: linear-gradient(rgb(255, 192, 203), rgb(162, 162, 240));
-    margin-top: 25px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 section {
@@ -30,19 +37,21 @@ section {
     align-content: center;
     justify-content: center;
     align-items: center;
+    
 }
 
-div {background-color: rgb(247, 207, 214);}
-p {margin-right: 50%; font-size: large;
+div {background: color rgb(119, 177, 44);}
+p {margin-right: 858px; font-size:medium;
 text-transform:capitalize;}
 
 footer {
     background-color: beige;
     text-align: center;
 }
+button{border-radius: 25%;
+padding: 15px;}
 
 /*Los otros*/
-
 section button {
     margin-top: 2%;
     margin-bottom: 2%;
@@ -57,6 +66,7 @@ section input {
 p {
     font-size:medium;
     font-family: 'Times New Roman', Times, serif;
+   
 }
 
 span {
@@ -67,11 +77,21 @@ li {
     padding: 2%;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    background-color: bisque;
+    border-style: solid;
+    border-radius: 25%;
 }
 
 li:hover {
     color: blue;
+    background-color: rgb(104, 104, 241);
+    border-style: solid;
+    border-radius: 50%;
+    padding: 25px;
+
 }
+li:hover {transition-delay: 0,65s;}
 
 li {
     list-style-type: none;
@@ -88,6 +108,10 @@ nav img {
     
 }
 
-main img {margin-left: 35%;
+main img {margin-left: 215px;
+    height: 320px;
+    border-radius: 35%;
 }
-
+div img {margin-right: 1150px;
+width: 50px;
+}
