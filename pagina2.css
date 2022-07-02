@@ -1,28 +1,7 @@
 
- *{background: linear-gradient( rgb(198, 238, 218), rgb(214, 214, 252)) ;}
-
-#pagina2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: space-between;
-    align-items: flex-start;
-    justify-content: flex-end;
-}
-div img {margin-left: 45%;}
-h1 {margin-left: 45%;}
-div span {margin-left: 615px;
-margin-top: 2%;
-text-transform: uppercase;}
-p {text-align: center;}
-div h3 {margin-left: 45%;}
-#laa {
+*{background:linear-gradient(rgb(207, 241, 207), rgb(255, 255, 214));}
+section {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    margin-left: 615px;
-}
-button{margin-left: 5px; margin-top: 10px;}
-input{padding: 0 10px;}
-
-button:hover {cursor: pointer; border-color: blue; padding: 5px;}
+    flex-wrap: wrap;
+    flex-direction: column;}
