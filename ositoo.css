@@ -20,14 +20,14 @@ h1 {
     border-radius: 25%;
 }
 
-nav {
-    background: linear-gradient(rgb(255, 192, 203), rgb(162, 162, 240));
+nav {background: linear-gradient(rgb(255, 192, 203), rgb(162, 162, 240));
     margin-top: 4px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
 }
+
 
 section {
     background: linear-gradient(rgb(150, 238, 157), rgb(207, 250, 128));
@@ -39,6 +39,7 @@ section {
     justify-content: center;
     align-items: center;
 
+}
 }
 
 div {
@@ -119,8 +120,8 @@ li {
 }
 
 nav img {
-    width: 9%;
-    height: 9%;
+    width: 4%;
+    height: 4%;
     border-radius: 85%;
 }
 
@@ -170,3 +171,34 @@ main img {
 #Ape:focus {background-color: salmon;}
 #Corr:focus {background-color: salmon;}
 #Text:focus {background-color: salmon;}
+
+.arañaa img {
+    width: 15rem;
+    margin-left: 31rem;
+    margin-top: 5rem;
+    border-radius: 50%;
+}
+
+
+
+.arañaa img{
+    animation-name: araña;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes araña
+{From {transform: translateY(-100px);} To {transform: translateY(0px);}
+}
+
+.sombra img {
+    animation: sombra 2s alternate infinite;
+}
+
+@keyframes sombra {
+    0%{transform: scale(1);}
+    100%{transform: scale(0.6);opacity: 0.2;}
+
+
+}
